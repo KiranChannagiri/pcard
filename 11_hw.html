@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>profile card</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<style>
+			body
+			{
+				margin: 0px;
+				background-image: linear-gradient(to top right,#662D8C,#ED1E79);
+				width:100vw;
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+			#container
+			{
+				width: 40%;
+				height: 90%;
+/* 				border: 1px solid black; */
+				border-radius: 40px;
+				box-shadow: 0px 0px 50px rgba(255,255,255,0.2);
+				
+			}
+			#image
+			{
+				background-image: linear-gradient(to top right,#2E3192,#1BFFFF);
+				width: 100%;
+				height: 50%;
+				border-top-left-radius: 40px;
+				border-top-right-radius: 40px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			#image img 
+			{
+				width: 40%;
+				height: 40%;
+				border-radius: 100%;
+			}
+			#image h1
+			{
+				font-weight: 900;
+				font-family: sans-serif;
+				color: orange;
+				margin: 0px;
+			}
+			h2
+			{
+				font-family: sans-serif;
+				color: orange;
+				margin: 0px;
+				font-weight: 400;
+			}
+			#image h1,h2 
+			{
+				text-shadow: 2px 2px gold;
+			}
+			#about
+			{
+				background-image: linear-gradient(to top right,#11998E,50%,#38EF7D);
+				width: 100%;
+				height: 50%;
+				border-bottom-left-radius: 40px;
+				border-bottom-right-radius: 40px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+/* 				justify-content: space-evenly; */
+			}
+			#about h1,p 
+			{
+				margin: 0px;
+			}
+			#icons
+			{
+				width: 100%;
+				height: 30%;
+			}
+			#icons a i 
+			{
+				width: 40px;
+				height: 42%;
+				background-color: white;
+				padding:10px ;
+				font-size: 2.4rem;
+				border-radius: 10px;
+				margin-right: 10px;
+			}
+			#icons a i:hover 
+			{
+				box-shadow: 0px 0px 20px 20px lightcoral;
+			}
+			#about h1 
+			{
+				font-weight: 900;
+				font-family: sans-serif;
+				margin-top: 10px;
+				color: gold;
+				margin-bottom: 10px;
+				margin-left: 10px;
+			}
+			#about p 
+			{
+				font-size: 1rem;
+				font-family: sans-serif;
+				font-weight: bold;
+				color: blue;
+				text-align: justify;
+				margin: 10px;
+			}
+			#icons 
+			{
+				margin: 10px;
+			}
+			#about h1 
+			{
+				text-shadow: 4px 4px orange;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- creatig the profile card -->
+		<div id="container">
+			<div id="image">
+				<img src="12_kiran.png" alt="me">
+				<h1>Kiran K Channagiri</h1>
+				<h2>Full Stack Web Developer</h2>
+			</div>
+			<div id="about">
+				<h1>ABOUT</h1>
+				<p>I design and develop experiences that make peoples lives simpler through web apps.I work with Figma,HTML5,CSS5,JavaScript and React I am passionate full stack web developer .My expertise lies in HTML ,CSS, JS, React. I'm truly passionate about web development because it allows me to work on both client side and server side.</p>
+				<div id="icons">
+					<a  target="_blank" href="https://www.linkedin.com/in/kiran-k-channagiri">
+						<i class="fa-brands fa-linkedin" style="color: #005eff;"></i>
+					</a>
+					<a  target="_blank" href="https://youtube.com/@Kiran17-ld8di">
+						<i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
+					</a>
+					<a  target="_blank" href="https://github.com/KiranChannagiri">
+						<i class="fa-brands fa-github" style="color: #000000;"></i>
+					</a>
+					<a  target="_blank" href="mailto:kirankc1704@gmail.com">
+						<i class="fa-solid fa-at" style="color: #005eff;"></i>
+					</a>
+					<a  target="_blank" href="https://www.facebook.com">
+						<i class="fa-brands fa-facebook" style="color: #005eff;"></i>
+					</a>
+					<a target="_blank"  href="tel:+919110816791">
+						<i class="fa-solid fa-phone" style="color: #005eff;"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
